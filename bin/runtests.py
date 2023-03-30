@@ -19,7 +19,7 @@ import sys
 import os
 major, minor = sys.version_info[:2]
 if major != 2 or minor < 6:
-	print "PyStream requires Python 2.6 to run.  Python %d.%d detected." % (major, minor)
+	print (f"PyStream requires Python 2.6 to run.  Python {major}.{minor} detected.")
 	sys.exit()
 
 import scriptsetup
